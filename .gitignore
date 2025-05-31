@@ -1,8 +1,8 @@
-# Node modules (if any accidentally installed at root)
-node_modules/
+# Node modules
+*/node_modules/
 
 # Python cache
-__pycache__/
+*/__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
@@ -39,11 +39,11 @@ Desktop.ini
 .env.*
 
 # Root-level build artifacts
-/build/
-/dist/
-/target/
-/bin/
-/obj/
+*/build/*
+*/dist/*
+*/target/*
+*/bin/*
+*/obj/*
 
 # Coverage reports
 coverage/
