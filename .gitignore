@@ -1,0 +1,61 @@
+# Node modules (if any accidentally installed at root)
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.so
+*.dll
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Environment files
+.env
+.env.*
+
+# Root-level build artifacts
+/build/
+/dist/
+/target/
+/bin/
+/obj/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Misc
+*.iml
+*.class
+*.jar
+
+# Ignore all project-level gitignore files
+!*/.gitignore
+
+# Examples
+!*.example
